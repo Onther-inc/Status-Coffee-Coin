@@ -1,0 +1,42 @@
+{
+  "contract_name": "SimpleStorage",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x60606040523415600b57fe5b5b60978061001a6000396000f300606060405263ffffffff60e060020a60003504166360fe47b18114602a5780636d4ce63c14603c575bfe5b3415603157fe5b603a600435605b565b005b3415604357fe5b60496064565b60408051918252519081900360200190f35b60008190555b50565b6000545b905600a165627a7a72305820844d5cf52e43024c8ddf9862e6cd9918b239362c1b89f04d38ca70472f2efdac0029",
+  "networks": {
+    "1496896988971": {
+      "events": {},
+      "links": {},
+      "address": "0xcc016fbc2477cbea2f68f62426a15d0117b758e3",
+      "updated_at": 1496897834912
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1496897834912
+}
